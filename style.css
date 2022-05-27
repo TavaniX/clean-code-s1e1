@@ -35,7 +35,13 @@
 }
 .task-row-wrapper {
   display: flex;
+  padding-left: 0;
 }
+.add-li {
+  display: flex;
+  width: 100%;
+}
+
 .task-elems-list {
   margin: 0;
   padding: 0px;
@@ -101,6 +107,7 @@ button {
 }
 #new-task {
   width: 318px;
+  flex: 1 0 auto;
 }
 
 /* Task list */
