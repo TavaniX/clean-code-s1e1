@@ -45,11 +45,12 @@
   margin: 0;
   padding: 0px;
 }
-/* styles reset */
-h1 {
+.visually-hidden {
   position: fixed;
   transform: scale(0);
 }
+
+/* styles reset */
 li,
 h2 {
   list-style: none;
