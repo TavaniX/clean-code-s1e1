@@ -41,8 +41,12 @@
   padding: 0px;
 }
 /* styles reset */
+h1 {
+  position: fixed;
+  transform: scale(0);
+}
 li,
-h3 {
+h2 {
   list-style: none;
 }
 input,
