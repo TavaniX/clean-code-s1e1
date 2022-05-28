@@ -16,9 +16,9 @@
     <main class="main">
       <section>
         <h2 class="h2">Add Item</h2>
-        <ul class="ul">
-          <li class="add-item">
-            <input class="add-item__task input" id="input-new-task" type="text" />
+        <ul class="task-elems">
+          <li class="task-list add-item">
+            <input class="input" id="input-new-task" type="text" />
             <button class="button">Add</button>
           </li>
         </ul>
@@ -30,17 +30,17 @@
             <input class="task-list__checkbox" type="checkbox" />
             <label class="task-list__label">Pay Bills</label>
             <input class="input" type="text" />
-            <button class="button edit">Edit</button>
-            <button class="button delete">
+            <button class="button button_edit">Edit</button>
+            <button class="button button_delete">
               <img class="button__img" src="./remove.svg" alt="remove" />
             </button>
           </li>
-          <li class="task-list editMode">
+          <li class="task-list task-list_edit">
             <input class="task-list__checkbox" type="checkbox" />
             <label class="task-list__label">Go Shopping</label>
             <input class="input" type="text" value="Go Shopping"  />
-            <button class="button edit">Save</button>
-            <button class="button delete">
+            <button class="button button_edit">Save</button>
+            <button class="button button_delete">
               <img class="button__img" src="./remove.svg" alt="remove" />
             </button>
           </li>
@@ -49,12 +49,12 @@
       <section>
         <h2 class="h2">Completed</h2>
         <ul class="task-elems" id="completed-tasks">
-          <li class="task-list">
+          <li class="task-list task-list_completed">
             <input class="task-list__checkbox" type="checkbox" checked />
             <label class="task-list__label">See the Doctor</label>
             <input class="input" type="text" />
-            <button class="button edit">Edit</button>
-            <button class="button delete">
+            <button class="button button_edit">Edit</button>
+            <button class="button button_delete">
               <img class="button__img" src="./remove.svg" alt="remove" />
             </button>
           </li>
